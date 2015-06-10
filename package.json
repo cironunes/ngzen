@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cironunes/ngzen#readme",
   "dependencies": {
     "commander": "^2.8.1",
+    "del": "^1.2.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
