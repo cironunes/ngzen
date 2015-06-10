@@ -6,7 +6,7 @@
     "zen": "lib/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha lib/creator --require test/helpers/chai.js test/helpers/sinon.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.1",
+    "sinon-chai": "^2.8.0"
   }
 }
