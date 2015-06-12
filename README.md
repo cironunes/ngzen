@@ -15,7 +15,25 @@
     - auth.module.js
   ```
   
-- ** controller [controller_name] [module_name]:**
-- ** service [controller_name] [module_name]:**
-- ** directive [controller_name] [module_name]:**
+- **controller [controller_name] [module_name]:**
+  `
+  $ zen controller auth auth
+  `
+  
+  ```
+  - auth
+    - auth.controller.js
+  ```
+ 
+- **service [service_name] [module_name]:**
+  `
+  $ zen service auth auth
+  `
+  
+  ```
+  - auth
+    - auth.service.js
+  ```
+ 
+- **directive [controller_name] [module_name]:**
 
