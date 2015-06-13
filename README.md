@@ -1,6 +1,10 @@
 # ngzen
 > CLI tool to improve the worflow for Angular apps
 
+## How to install
+
+`$ npm install -g ngzen`
+
 ## API
 
 - **module [module_name]:**
@@ -35,5 +39,12 @@
     - auth.service.js
   ```
  
-- **directive [controller_name] [module_name]:**
-
+- **directive [directive_name] [module_name]:**
+  `
+  $ zen directive auth auth
+  `
+  
+  ```
+  - auth
+    - auth.directive.js
+  ```
