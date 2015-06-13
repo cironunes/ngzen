@@ -1,6 +1,10 @@
 # ngzen
 > CLI tool to improve the worflow for Angular apps
 
+## How to install
+
+`$ npm install -g ngzen`
+
 ## API
 
 - **module [module_name]:**
