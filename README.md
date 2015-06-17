@@ -1,5 +1,7 @@
 # ngzen
-> CLI tool to improve the worflow for Angular apps
+> CLI tool for a faster Angular worflow
+
+Zen creates Angular files for you enforcing the [best practices](https://github.com/johnpapa/angular-styleguide).
 
 ## How to install
 
