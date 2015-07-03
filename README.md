@@ -56,3 +56,14 @@ Zen creates Angular files for you enforcing the [best practices](https://github.
   - auth
     - auth.directive.js
   ```
+
+- **constant [constant_name] [module_name]:**
+  
+  `
+  $ zen constant auth auth
+  `
+
+  ```
+  - auth
+    - auth.constant.js
+  ```
